@@ -3,8 +3,8 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "h h h h h h"
-        "a a a m m m"
-        "f f f m m m";
+        "a a m m m m"
+        "f f f f f f";
     grid-gap: 2px;
     margin-top: 15px;
 }
@@ -19,35 +19,53 @@ header{
     padding-top: 15px;
     font-size: 20px;
 }
+header .logo{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
 header .banner{
     border: 1px solid white;
     background-color: #151E3F;
     color: white;
+    margin: 10px;
+    margin-top: 90px;
     padding: 10px;
+}
+header .banner a{
+    color: red;
+    text-decoration: none;
 }
 main{
     border: 1px solid black;
     background-color: #2E86AB;
     color: white;
     grid-area: m;
-    height: 605px;
+    height: 500px;
     font-size: 20px;
+    padding: 10px;
 }
 main .paragrafo{
-    padding-top: 520px;
-
+    margin-top: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 200px;
+    padding: 10px;
 }
 .menulateral{
     border: 1px solid black;
     background-color: #56876D;
+    color: white;
     grid-area: a;
     height: 500px;
     font-size: 20px;
+    padding: 10px;
 }
 footer{
     border: 1px solid black;
     background-color: #E3E3E3;
     grid-area: f;
-    height: 100px;
+    height: 80px;
     font-size: 20px;
+    padding: 10px;
 }

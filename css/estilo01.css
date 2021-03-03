@@ -1,0 +1,55 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "h h h h h h"
+        "a a m m m m"
+        "f f f f f f";
+    grid-gap: 5px;
+    margin: 10px;
+}
+header{
+    border: 1px solid black;
+    padding: 10px;
+    height: 200px;
+    grid-area: h;
+}
+header h1{
+    font-size: 20px;
+}
+.menu{
+    border: 1px solid black;
+    margin-top: 140px;
+    margin-left: 630px;
+    padding: 10px;
+    font-size: 20px;
+}
+main{
+    grid-area: m;
+}
+aside{
+    border: 1px solid black;
+    font-size: 20px;
+    grid-area: a;
+    height: 500px;
+}
+.article{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    height: 328px;
+    margin-bottom: 5px;
+}
+.section{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 10px;
+    height: 125px;
+    margin-top: 5px;
+}
+footer{
+    grid-area: f;
+    border: 1px solid black;
+    height: 130px;
+    font-size: 20px;
+}

@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "h h h h h h"
+        "a a m m m m"
+        "f f f f f f";
+    grid-gap: 5px;
+    margin: 10px;
+}
