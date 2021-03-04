@@ -1,0 +1,19 @@
+.parallax{
+    background-image: url("/image/horizonte.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+    flex-direction: column;
+}
+.servisos{
+    height: 1000px;
+    background-color: azure;
+}
+.parallax img{
+    width: 550px;
+    height: 300px;
+}

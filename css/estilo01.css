@@ -14,7 +14,7 @@ body{
 header{
     border: 1px solid black;
     padding: 10px;
-    height: 200px;
+    height: 300px;
     grid-area: h;
 }
 header h1{
@@ -43,10 +43,10 @@ header a{
 }
 .menu{
     border: 1px solid black;
-    margin-top: 60px;
-    margin-left: 625px;
+    margin-top: 140px;
+    margin-left: 610px;
     padding: 10px;
-    font-size: 20px;
+    height: 80px;
 }
 main{
     grid-area: m;
@@ -74,6 +74,6 @@ aside{
 footer{
     grid-area: f;
     border: 1px solid black;
-    height: 130px;
+    height: 100px;
     font-size: 20px;
 }

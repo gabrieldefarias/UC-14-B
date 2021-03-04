@@ -6,8 +6,8 @@ body{
 header{
     width: 1198px;
     height: 250px;
-    background-color: #372554;
-    color: white;
+    background-color: #B8C5D6;
+    color: black;
     margin-top: 15px;
     position: relative;
     border: 1px solid black;
@@ -25,17 +25,12 @@ header h1{
     margin-left: 10px;
 }
 .menu{
-    width: 500px;
-    height: 80px;
+    width: 564px;
+    height: 41px;
     position: absolute;
-    border: 1px solid white;
     bottom: 15px;
     right: 15px;
     font-size: 20px;
-}
-.menu a{
-    color: red;
-    text-decoration: none;
 }
 .lateralesquerda{
     width: 295px;
@@ -56,13 +51,56 @@ main{
     color: white;
     float: right;
     font-size: 20px;
+    background-image: url("/image/codigo02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 92%;
 }
 footer{
     margin-top: 6px;
     width: 1198px;
-    height: 60px;
+    height: 100px;
     border: 1px solid black;
     background-color: #BA274A;
     float: left;
     font-size: 20px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.item-primario{
+    width: calc(524px/5);
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-size: 12px;
+    background-color: #2d3436;
+    color: #dce1e4;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 03px 03px;
+}
+.item-primario:hover{
+    background: #636e72;
+}
+.submenu{
+    display: none;
+    background: #2d3436;
+    width: 104px;
+    text-align: center;
+    margin: 3px 0;
+}
+.item-primario:hover .submenu{
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.submenu:hover{
+    background-color: #636e72;
 }
