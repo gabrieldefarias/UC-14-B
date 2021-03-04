@@ -3,56 +3,48 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "h h h h h h"
-        "a a m m m m"
+        "n d d d d a"
         "f f f f f f";
     grid-gap: 5px;
     margin: 10px;
 }
 header{
+    grid-area: h;
     border: 1px solid black;
     padding: 10px;
-    height: 200px;
-    grid-area: h;
-}
-header h1{
-    font-size: 20px;
+    height: 150px;
 }
 header a{
     font-size: 20px;
 }
 .menu{
+    grid-area: n;
     border: 1px solid black;
-    margin-top: 60px;
-    margin-left: 625px;
     padding: 10px;
-    font-size: 20px;
+    height: 350px;
 }
-main{
-    grid-area: m;
-}
-aside{
+#div{
+    grid-area: d;
     border: 1px solid black;
-    font-size: 20px;
-    grid-area: a;
-    height: 500px;
+    padding: 10px;
+    height: 350px;
 }
 .article{
     border: 1px solid black;
-    font-size: 20px;
+    margin: 10px 0;
     padding: 10px;
-    height: 328px;
-    margin-bottom: 5px;
+    height: 80px;
+    text-align: end;
 }
-.section{
+aside{
+    grid-area: a;
     border: 1px solid black;
-    font-size: 20px;
     padding: 10px;
-    height: 125px;
-    margin-top: 5px;
+    height: 350px;
 }
 footer{
     grid-area: f;
     border: 1px solid black;
-    height: 130px;
-    font-size: 20px;
+    height: 70px;
+    padding: 10px;
 }

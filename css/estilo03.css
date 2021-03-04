@@ -3,8 +3,64 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "h h h h h h"
-        "a a m m m m"
+        "s s s s s s"
         "f f f f f f";
     grid-gap: 5px;
     margin: 10px;
+}
+header{
+    grid-area: h;
+    border: 1px solid black;
+    padding: 10px;
+    height: 160px;
+}
+header a{
+    font-size: 20px;
+}
+.menu{
+    border: 1px solid black;
+    margin-left: 700px;
+    height: 40px;
+    padding: 10px;
+}
+section{
+    border: 1px solid black;
+    padding: 5px;
+    grid-area: s;
+}
+.aside{
+    border: 1px solid black;
+    width: 150px;
+    height: 400px;
+    float: right;
+    text-align: end;
+}
+.header{
+    border: 1px solid black;
+    width: 1700px;
+    height: 20px;
+    padding: 5px;
+    text-align: end;
+}
+.article{
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 1700px;
+    height: 290px;
+    padding: 5px;
+    text-align: end;
+}
+.footer{
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 1700px;
+    height: 46px;
+    padding: 5px;
+    text-align: end;
+}
+footer{
+    grid-area: f;
+    border: 1px solid black;
+    height: 50px;
+    padding: 5px;
 }
